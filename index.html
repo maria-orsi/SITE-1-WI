@@ -1,9 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-	<title>primeiro site</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="vidt=device-width,initial-scale=1.0">
+
+	<title>Primeiro site</title>
 	<style type="text/css">
-		h1 {
+		body{background-image: url(img/img2css.jpg);
+
+			background-repeat: no-repeat; background-size: cover;
+			width: 80%
+			margin-left:auto;
+			margin-right:auto; 
+
+		}
+		p{ font-size: 30px }
+
+		ul li{ font-size: 20px
+				color: #A52A2A	 }
+
+		ol li{ font-size: 20px
+				color: #A52A2A }
+
+		figure{  text-align: center; 
+			border: 5px dashed #EE82EE
+		 
+
+		}
+
+		h1,h2{
 
 			font-family:"Times New Roman", Times, serif;
 			font-size: 120px
@@ -12,21 +37,43 @@
 			text-align: center;
 			text-decoration-style:wavy;
 			background-color: #FFFFE0
+
+		
+
 		</style>
 </head>
 <body style="background-color: #FFC0CB"=>
-	<h1>O que é e para que serve o CSS</h1>
-		<p>CSS (Cascading Style Sheets — Folhas de Estilos em Cascata) é uma extensão da HTML, uma linguagem de estilo, ou seja, fazendo o uso dessa linguagem é possível definir como o conteúdo dos elementos HTML serão apresentados na página da Web. Essa extensão foi incorporada à linguagem HTML a partir de sua quarta versão em 1997.
-		</p><p>O CSS3 (que vamos aprender) é a segunda versão da linguagem CSS.
-		</p><p>Separar o conteúdo do documento HTML de sua formatação.
-		</p><p>Forma antiga de se formatar conteúdos:
+	<h1> <a href="https://www.w3schools.com/html/default.asp"> Codigos iniciais de uma página html</a> </h1>
+		<p>toda pagina é iniciada por padrão com essas coodenadas
+		<p>html. lang="pt-br" (linguagem da pagina)</p> 
+		<p>(tag criada dentro do head) meta charset="utf-8"</p>
+		<p>meta name="viewport" content="vidt=device-width,initial-scale=1.0"</p>
 		</p>
-	<h2>O que é e para que serve o CSS</h2>
-		<p>Ou seja, se você tivesse 10 tipos diferentes de fontes em uma mesma página, então teria de   fazer esta formatação 10 vezes. Até que fazer isto em uma só página, tudo bem, mas se o site tivesse 100 páginas então seria muito trabalhoso manter e alterar estas fontes, não acha?
-		</p><img src="img/imagem022.png">
-	'<h1 style="color: #A52A2A" >O que é o W3C</h1>
-		<p style="color:#9400D3" "text-align: center">O W3C (World Wide Web Consortium), criado em outubro de 1994 por Tim Berners-Lee, é um consórcio internacional formado por empresas, instituições, pesquisadores, desenvolvedores e público em geral. A finalidade desse consórcio é desenvolver a web a seu potencial máximo, criando normas, especificações e padronizações que se aplicam aos mais diversos segmentos e setores da web. (W3C, ONLINE) 
-		</p> <img src="img/imagem122.png" class="center">
+
+	<h2><a href="https://www.w3schools.com/html/html_lists.asp">Lista</h2></a> 
+		<p>A lista pode ser "ul" (com pontinho) ou "ol" (numerada), para que ela apareça prescisamos criar uma um segmento em cada linha de (li).
+		<ul>
+			<li>HTML significa Linguagem de Marcação de Texto Hiper</li>
+			<li>HTML é a linguagem de marcação padrão para criar páginas da Web</li>
+			<li>HTML descreve a estrutura de uma página da Web</li>
+		</ul>
+		<p>Isto foi um exemplo de lista com pontinho</p>
+		<ol>
+			<li>HTML consiste em uma série de elementos</li>
+			<li>Elementos HTML dizem ao navegador como exibir o conteúdo</li>
+			<li>Elementos HTML rotulam peças de conteúdo como "este é um título", "este é um parágrafo", "este é um link", etc.</li>
+		</ol>
+		<p>Isto é um exemplo de lista numerada</p>
+		</p> <figure><img src="img/imagem022.png"></figure>
+
+	'<h1 style="color: #A52A2A" ><a href="https://www.w3schools.com/html/html_images.asp">Como adicionar Imagens</h1></a>
+		<p style="color:#9400D3" "text-align: center">Primeiramente tenha salvo as imagems que vai usar em uma pasta separada do index. Depois use a tag (img) para indicar que é uma imagem. O "src=" serve para o programa procurar o arquivo, e dentro coloque o nome da pasta em que ela está, "/" o nome da imagem "." o formato (png/jpg etc).
+		<p> ficando assim: (img scr="img/imagem220.png") </p>
+		</p> 
+		 <figure><img src="img/imagem122.png"></figure>
+
+			
+		
      
 </body>
 </html>
