@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Posicionamento</title>
+	<meta charset="utf-8">
+	<link rel= "shortcut icon" href="img/favicon.png">
+</head>
+<style type="text/css">
+	
+	.fixa{
+		position: fixed;
+		top: 0;
+		right: 0;
+		left: 0;
+		z-index: 1030;
+		background-color: black;
+		color: white;
+	}
+
+	.main{
+		margin-top: 8%;
+	}
+
+	.container{
+		position: relative;
+		background-color: pink;
+		width: 100%;
+		height: 1220px;
+		text-align: center;
+	}
+
+	.cimaesqueda{
+		position: absolute;
+		top: 16px;
+		left: 16px;
+		font-size: 18px;
+		width: 20%;
+		background-color: red;
+	}
+
+	.cimadireita{
+		position: absolute;
+		top: 16px;
+		right: 16px;
+		font-size: 18px;
+		width: 20%;
+		background-color: red;
+	}
+
+	.baixoesquerda{
+		position: absolute;
+		bottom: 16px;
+		left: 16px;
+		font-size: 18px;
+		width: 20%;
+		background-color: red;
+	}
+
+	.baixodireita{
+		position: absolute;
+		bottom: 16px;
+		right: 16px;
+		font-size: 18px;
+		width: 20%;
+		background-color: red;
+	}
+
+	.centro{
+		position: absolute;
+		top: 50%;
+		margin-left: 40%;
+		font-size: 18px;
+		width: 20%;
+		background-color: red;
+	}
+
+</style>
+<body>
+	<header class="fixa">
+		<h1>Testando</h1>
+	</header>
+	<div class="main">
+		<h1>testando posicionamento</h1>
+		<div class="container">
+			<div class="cimaesqueda"> canto superior esquerdo</div>
+			<div class="cimadireita"> canto superior direito</div>
+			<div class="baixoesquerda"> canto inferior esquerdo</div>
+			<div class="baixodireita"> canto inferior direito</div>
+			<div class="centro"> centro</div>
+		</div>
+	</div>
+</body>
+</html>
